@@ -1,0 +1,126 @@
+:root {
+  --color-primary: #434455;
+  --color-secondary: #2e2f42;
+  --color-active: #404bbf;
+  --bckground-primery: #e5e5e5;
+}
+
+body {
+  color: var(--color-primary);
+  background-color: #e5e5e5;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+}
+.logo-header {
+  color: var(--color-secondary);
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-header > span {
+  color: #4d5ae5;
+}
+.nav-item {
+  color: var(--color-secondary);
+  background-color: #e5e5e5;
+  font-weight: 500;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--color-active);
+}
+.contact {
+  color: var(--color-primary);
+  font-style: normal;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--color-active);
+}
+.hero {
+  background-color: var(--color-secondary);
+}
+.h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.order-btn {
+  color: #fff;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+.order-btn:hover,
+.order-btn:focus {
+  background: #404bbf;
+}
+.h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-secondary);
+}
+.h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  /* NAVY BLUE */
+
+  color: var(--color-secondary);
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+.footer {
+  background-color: var(--color-secondary);
+}
+.logo-footer {
+  color: #f4f4fd;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-footer > span {
+  color: #4d5ae5;
+}
+.footer-text {
+  color: #e7e9fc;
+}
+.filter-btn {
+  background: #f4f4fd;
+  color: #4d5ae5;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.04em;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  height: 48px;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background: #404bbf;
+  color: #fff;
+}
