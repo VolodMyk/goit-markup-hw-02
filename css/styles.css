@@ -12,11 +12,13 @@
 body {
   color: var(--color-primary);
   background-color: var(--bckground-primery);
-
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.lst-stl-n {
+  list-style-type: none;
 }
 .logo-header {
   color: var(--color-secondary);
@@ -33,18 +35,22 @@ body {
 .nav-item {
   color: var(--color-secondary);
   font-weight: 500;
+  text-decoration: none;
 }
 .nav-item:hover,
 .nav-item:focus,
 .contact:hover,
-.contact:focus,
+.contact:focus {
+  color: var(--color-accent);
+}
 .order-btn:hover,
 .order-btn:focus {
-  color: var(--color-accent);
+  background-color: var(--color-accent);
 }
 .contact {
   color: var(--color-primary);
   font-style: normal;
+  text-decoration: none;
 }
 /* Hero */
 .hero {
