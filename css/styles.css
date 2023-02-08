@@ -8,7 +8,7 @@
   --bckground-primery: #ffffff;
   --bckground-second: #f4f4fd;
 }
-
+/* Body */
 body {
   color: var(--color-primary);
   background-color: var(--bckground-primery);
@@ -46,6 +46,7 @@ body {
   color: var(--color-primary);
   font-style: normal;
 }
+/* Hero */
 .hero {
   background-color: var(--color-secondary);
 }
@@ -67,6 +68,7 @@ body {
   letter-spacing: 0.02em;
   cursor: pointer;
 }
+/* Sections */
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -97,9 +99,11 @@ body {
 .logo-footer > span {
   color: var(--color-logo-web);
 }
+/* Footer */
 .footer-text {
   color: var(--bcg-button);
 }
+/* Filter Buttons */
 .filter-btn {
   background: var(--bckground-second);
   color: var(--color-button);
@@ -117,3 +121,4 @@ body {
   background: var(--color-accent);
   color: var(--bckground-primery);
 }
+/* /Filter Buttons */
