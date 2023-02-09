@@ -28,6 +28,7 @@ body {
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
+  text-decoration: none;
   text-transform: uppercase;
 }
 .logo-header > span {
@@ -101,6 +102,7 @@ body {
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  text-decoration: none;
   text-transform: uppercase;
 }
 .logo-footer > span {
@@ -115,11 +117,12 @@ body {
   background: var(--bckground-second);
   color: var(--color-button);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   /* text-align: center; */
   letter-spacing: 0.04em;
   border: 1px solid var(--bcg-button);
   border-radius: 4px;
-  height: 48px;
   font-family: inherit;
   cursor: pointer;
 }
